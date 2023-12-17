@@ -10,7 +10,7 @@ import iPhone_Case from "/public/iphone-case.png"
 export default function Home() {
   return (
     <main className="grid justify-items-center">
-        <section className="grid justify-items-center h-96 bg-gray-200/40 w-full">
+        <section className="grid justify-items-center h-48 bg-gray-200/40 w-full sm:h-96">
           <ul className="flex flex-row justify-center items-center">
             <li className="opacity-80 hover:cursor-pointer hover:opacity-40">
               <a href="fenty">
@@ -22,7 +22,7 @@ export default function Home() {
                 />
               </a>
             </li>
-            <li className="px-96 hover:cursor-pointer hover:opacity-70">
+            <li className="px-6 hover:cursor-pointer hover:opacity-70 sm:px-96">
               <a href="/zara">
                 <Image 
                 src={Zara_Logo}
@@ -46,7 +46,7 @@ export default function Home() {
         </section>
         <section>
         </section>
-        <section className="grid grid-cols-3 text-center text-neutral-700 place-items-center my-36 w-3/4">
+        <section className="grid grid-cols-1 text-center text-neutral-700 place-items-center my-20 w-5/6 sm:grid-cols-3 sm:w-3/4 sm:my-36"> 
               <article className="rounded-xl shadow-lg h-80 w-56 mb-14 hover:cursor-pointer hover:opacity-60 grid place-items-center text-neutral-700 font-thin p-4">
                 <a href="/zara/luxury-watch-xsbeauty">
                   <Image 
